@@ -23,7 +23,8 @@ import UpdateProjectForm from './pages/UpdateProject';
 
 
 const App = () => {
-  const isAuthenticated = !!localStorage.getItem('token');
+  // const isAuthenticated = !!localStorage.getItem('token');
+  const isAuthenticated=true;
 
   return (
     <Router>
